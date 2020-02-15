@@ -1,142 +1,84 @@
-h1 {
-  color: rgb(172,208,239);
-  font-family: 'Arial';
-  font-size: 250%;
-  
-}
-
-   ul {
-    list-style-type: none;
-}
-
-
-
-
-h2 {
-  color: rgb(255,255,255);
-  font-family: 'Arial', sans-serif;
- }
-
-h3 {
-  color: rgb(228,216,198);
-   font-family: 'Droid Sans', sans-serif;
-}
-
-h4 {
-  color: rgb(255,255,255);
-}
-
 body {
-	background-repeat: no-repeat;
-	background-position: center 0;
-	background-image: url("https://raw.githubusercontent.com/ronandersondesigns/graphicdesigner/gh-pages/images/websitebackground.jpg");
-	background-attachment: fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	margin-left: auto;
-	margin-right: auto;
-	top: auto;
-	bottom: auto;
-	float: none;
-	border-width: 0px;
-	height: 1000px;
+    background-color: #e8e7ea;
+    align-content: center;
+    height: 100%;
+    width: 100%;  
 }
 
-.backgroundImage{
-	margin-top: -10px;
-	margin-left: 0px;
-	margin-bottom: -10px;
-	min-height: 0;
-	height: cover;
-}
-.content{
-	margin-top: 82px;
-	margin-bottom: -10px;
-	margin-right: 0px;
-	margin-left: 0px;
-}
-.logo{
-	margin-top: -1700px;
-	margin-bottom: -10px;
-    	margin-right: 270px;
-	margin-left: 0px;
-	padding-top: 0px;
-
-}
-.buttons{
-	margin-top: 41px;
-	text-align: center;
-	
+.top {
+    height: 10px;
+    width: 100%;
+    background-color: #393837;
+    margin-top: -10px;
+    margin-left: -10px;
+    padding-right: 010px;
 }
 
-
-a {
-	font-family: 'Droid Sans', sans-serif;
-	color: rgba(73,73,73,1.00);
-	letter-spacing: 5px;
-	word-spacing: 77px;
-	cursor: pointer; cursor: hand;
-}
-p {
-	font-family: 'Droid Sans', sans-serif;
-	color: rgba(73,73,73,1.00);
-}
-
-a:link {
-text-decoration: none;
-letter-spacing: 5px;
-	word-spacing: 77px;
-}
-
-a:visited {
-letter-spacing: 5px;
-	word-spacing: 77px;
+.logo {
+    
+    background-color:;
+    margin:auto;
+    height: 110px;
+    width: 120px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: thin;
+    font-size: 30px;
+    font-weight: 100;
+    vertical-align: text-bottom;
+    color: #393837;
+    line-height: 1.1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
 }
 
-a:hover {
-	
-	color: #717A92;
-	letter-spacing: 5px;
-	word-spacing: 77px;
+.buttons {
+    
+    background-color: ;
+    height: 60px;
+    margin:auto;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+	word-spacing: 50px;
+    font-size: 10px;
+    color: #393837;
+    text-decoration: none;
 }
 
 a:active {
-	text-decoration: none;
-letter-spacing: 5px;
-	word-spacing: 77px;
+    text-decoration: none;
+    color: #393837;
+    cursor: pointer; cursor: hand;
 }
 
-h1, h2, h3, h4, h5, h6{
-  line-height: 25px; 
+a:hover {
+    text-decoration: none;
+    color: #393837;
+    cursor: pointer; cursor: hand;
 }
-.content center img {
+
+a:visited {
+    text-decoration: none;
+    color: #393837;
+    cursor: pointer; cursor: hand;
 }
-.text{
-    position: static;
-    max-width: 660px;
-    margin: 0 auto;
-    padding: 30 30 0 0px;
-	font-family: 'roboto', sans-serif;
-	color: rgba(73,73,73,1.00);	
+
+a:link {
+    text-decoration: none;
+    color: #393837;
+    cursor: pointer; cursor: hand;
+}
+
+.video {
+    margin: auto;
+    margin-left: -15px;
+    margin-top: px;
+    margin-bottom: 20px;
+    align-content: top;
     
-}
-.col-title{
-    	
-    display: inline-block;
-    font-size: 13pt;
-    text-align: center;
-    width:100%;
-    float: center;
-    min-height: 20px;
-}
-
-.col-center{
-    display: inline-block;
-    text-align: center;
-    font-size: 12pt;
-    width:100%;
-    float: center;
-    min-height: 10px;
 }
