@@ -4,27 +4,33 @@ body {
     height: 100%;
     width: 100%;  
 }
-
 .top {
-    height: 10px;
+    height: 60px;
     width: 100%;
+}
+
+.navbar {
+    font-family: 'Montserrat', sans-serif;
+    color: #e8e7ea;
     background-color: #393837;
-    margin-top: -10px;
-    margin-left: -10px;
-    padding-right: 010px;
+}
+.accTitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #393837;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .logo {
     
-    background-color:;
     margin:auto;
     height: 110px;
     width: 120px;
     font-family: 'Montserrat', sans-serif;
     font-style: thin;
     font-size: 30px;
-    font-weight: 100;
-    vertical-align: text-bottom;
     color: #393837;
     line-height: 1.1;
     display: block;
@@ -33,65 +39,34 @@ body {
     margin-top: 100px;
     
 }
-
-.buttons {
-    
-    background-color: ;
-    height: 60px;
-    margin:auto;
-    margin-top: 35px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-	word-spacing: 50px;
-    font-size: 10px;
-    color: #393837;
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-    color: #393837;
-    cursor: pointer; cursor: hand;
-}
-
-a:hover {
-    text-decoration: none;
-    color: #393837;
-    cursor: pointer; cursor: hand;
-}
-
-a:visited {
-    text-decoration: none;
-    color: #393837;
-    cursor: pointer; cursor: hand;
-}
-
-a:link {
-    text-decoration: none;
-    color: #393837;
-    cursor: pointer; cursor: hand;
-}
-
-.video {
-    margin: auto;
-    margin-left: -15px;
-    margin-bottom: 20px;
-    align-content: top;
-    
-}
-
 .breakdown {
-    margin:auto;
-    margin-left: -15px;
-    margin-bottom: 20px;
-    padding-left: 10%;
-    padding-right: 10%;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 10px;
-    color: #393837;
-    text-decoration: none;
-    text-align: left;
+    font-family: 'Lora', serif;
 }
+.demoReel{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #393837;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.portfolio{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #393837;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+.bottom{
+        background-image: url(BG_ArrowsGIF.gif);
+        height: 40px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto; 
+
+}
+
+
